@@ -37,3 +37,10 @@ where transactions_id is null
 
 -- How many sales we have 
 select count(*) as total_Sale from retail_sales
+
+-- How many Unique Customers we have 
+select count(distinct customer_id) as unique_customers from retail_sales
+
+-- what are diff unique categories available
+select distinct category from retail_sales
+
