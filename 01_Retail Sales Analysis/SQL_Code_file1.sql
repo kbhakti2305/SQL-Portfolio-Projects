@@ -1,6 +1,6 @@
 -- select only 10 rows
 select top 10 * 
-from dbo.retail_sales
+from dbo.retail_sales 
 
 -- Data Cleaning
 -- total rows in table
